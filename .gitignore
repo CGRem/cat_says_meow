@@ -1,10 +1,10 @@
 # This file is used to ignore files which are generated
 # ----------------------------------------------------------------------------
 
-bin/*
-obj/*
-bin/Debug/*
-
+bin/
+obj/
+bin/Debug/
+obj/Debug/
 std_poligon.depend
 std_poligon.layout
 
