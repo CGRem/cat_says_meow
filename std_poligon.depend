@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1707735891 source:d:\coding\c\trash\123\function.cpp
+	"function.h"
+
+1707847919 d:\coding\c\trash\123\objects.h
+	<iostream>
+	"function.h"
+
+1707735891 d:\coding\c\trash\123\function.h
+	<iostream>
+	<time.h>
+	"objects.h"
+
+1707735952 source:d:\coding\c\trash\123\main.cpp
+	<iostream>
+	"objects.h"
+	"function.h"
+
+1707735952 source:d:\coding\c\trash\123\objects.cpp
+	"objects.h"
+
+1707735891 source:d:\user\c++\examples\123\function.cpp
+	"function.h"
+
+1707735952 d:\user\c++\examples\123\objects.h
+	<iostream>
+	"function.h"
+
+1707735891 d:\user\c++\examples\123\function.h
+	<iostream>
+	<time.h>
+	"objects.h"
+
+1707734845 source:d:\user\c++\examples\123\objects.cpp
+	"objects.h"
+
+1707734609 source:d:\user\c++\examples\123\main.cpp
+	<iostream>
+	"objects.h"
+	"function.h"
+
