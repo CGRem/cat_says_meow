@@ -3,6 +3,8 @@
 
 bin/*
 obj/*
+bin/Debug/*
+
 std_poligon.depend
 std_poligon.layout
 
