@@ -19,7 +19,7 @@ namespace objects_r
     public:
         Cat_Cl();
         void says_meow();
-        void set_color(std::string *color_Str);
+        void set_color(std::string const& color_Str);
         void get_color();
         void cat_says_time();
     };

@@ -10,10 +10,10 @@ int main()
 {
     setlocale (LC_ALL, "Rus");
     Cat_Cl j;
-    string color_Str = "black";
-    j.set_color(&color_Str);
+    string const color_Str = "black";
+    j.set_color(color_Str);
     j.says_meow();
-    j.cat_says_time();
+    j.get_color();
 
 
 //    system("pause");

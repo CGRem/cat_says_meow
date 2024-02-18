@@ -13,8 +13,8 @@ namespace objects_r
         std::cout << "Кот говорит МЯУ" << std::endl;
     }
 
-    void Cat_Cl::set_color(std::string *color_Str){
-        color_Str_ = *color_Str;
+    void Cat_Cl::set_color(std::string const& color_Str){
+        color_Str_ = color_Str;
     }
 
     void Cat_Cl::get_color(){
