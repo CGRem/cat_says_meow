@@ -6,6 +6,7 @@ namespace objects_r
 {
     class Animal_Cl{
     protected:
+        bool fur_Bl_;
         std::string color_Str_;
         std::string word_Str_;
     public:

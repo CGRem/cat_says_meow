@@ -6,6 +6,7 @@ namespace objects_r
         std::cout << "конструктор Animal" << std::endl;
     }
     Cat_Cl::Cat_Cl(){
+        fur_Bl_ = true;
         cat_breed_Str = "none";
     }
 
