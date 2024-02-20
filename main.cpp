@@ -16,6 +16,6 @@ int main()
     j.get_color();
 
 
-//    system("pause");
+    system("pause");
     return 0;
 }
