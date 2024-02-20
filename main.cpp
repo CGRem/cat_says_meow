@@ -8,7 +8,7 @@ using namespace func_r;
 
 int main()
 {
-    setlocale (LC_ALL, "Rus");
+    //setlocale (LC_ALL, "Rus");
     Cat_Cl j;
     string const color_Str = "black";
     j.set_color(color_Str);
