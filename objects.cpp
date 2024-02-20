@@ -3,7 +3,7 @@ namespace objects_r
 {
     Animal_Cl::Animal_Cl(){
         color_Str_ = "";
-        std::cout << "êîíñòðóêòîð Animal" << std::endl;
+        std::cout << "ÐºÐ¾Ð½ÑÑ‚Ñ€ÑƒÐºÑ‚Ð¾Ñ€ Animal" << std::endl;
     }
     Cat_Cl::Cat_Cl(){
         fur_Bl_ = true;
@@ -11,17 +11,17 @@ namespace objects_r
     }
 
     void Cat_Cl::says_meow(){
-        std::cout << "Êîò ãîâîðèò ÌßÓ " << std::endl;
+        std::cout << "ÐšÐ¾Ñ‚ Ð³Ð¾Ð²Ð¾Ñ€Ð¸Ñ‚ ÐœÐ¯Ð£ " << std::endl;
     }
 
     void Cat_Cl::set_color(std::string const& color_Str){
         color_Str_ = color_Str;
     }
     void Cat_Cl::get_color(){
-        std::cout << "Êîò öâåòà " << color_Str_ << std::endl;
+        std::cout << "ÐšÐ¾Ñ‚ Ñ†Ð²ÐµÑ‚Ð° " << color_Str_ << std::endl;
     }
     void Cat_Cl::cat_says_time(){
-        std::cout << "Êîò ãîâîðèò ñåé÷àñ " << func_r::unix_time_now_Tt() << " ñåêóíä" << std::endl;
+        std::cout << "ÐšÐ¾Ñ‚ Ð³Ð¾Ð²Ð¾Ñ€Ð¸Ñ‚ ÑÐµÐ¹Ñ‡Ð°Ñ " << func_r::unix_time_now_Tt() << " ÑÐµÐºÑƒÐ½Ð´" << std::endl;
     }
 
 }
