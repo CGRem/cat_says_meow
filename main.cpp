@@ -14,8 +14,9 @@ int main()
     j.set_color(color_Str);
     j.says_meow();
     j.get_color();
+    j.cat_says_time();
 
 
-    system("pause");
+    //system("pause");
     return 0;
 }
